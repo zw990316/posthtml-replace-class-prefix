@@ -1,12 +1,17 @@
 {
   "name": "posthtml-replace-class-prefix",
   "description": "This plugin can replace the prefix of class in html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "PostHTML (https://github.com/posthtml)",
-  "bugs": "https://github.com/posthtml/posthtml-plugin-starter/issues",
-  "homepage": "https://github.com/posthtml/posthtml-plugin-starter",
-  "repository": "posthtml/posthtml-plugin-starter",
+  "bugs": {
+    "url": "https://github.com/posthtml/posthtml-plugin-starter/issues"
+  },
+  "homepage": "https://github.com/zw990316/posthtml-replace-class-prefix.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zw990316/posthtml-replace-class-prefix.git"
+  },
   "type": "module",
   "exports": "./lib/index.js",
   "engines": {
@@ -28,5 +33,10 @@
     "np": "^7.6.2",
     "posthtml": "^0.16.6",
     "xo": "^0.50.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
