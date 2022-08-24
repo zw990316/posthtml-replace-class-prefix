@@ -1,7 +1,7 @@
 {
   "name": "posthtml-replace-class-prefix",
   "description": "This plugin can replace the prefix of class in html",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "author": "PostHTML (https://github.com/posthtml)",
   "bugs": {
